@@ -1,0 +1,203 @@
+/* цвет основного текста #212121 */
+
+
+/* вторичный цвет текста #757575*/
+
+
+/*белый #FFFFFF*/
+
+
+/* акцент #2196F3*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --additional-color: #ffffff;
+}
+
+.body {
+    color: var(--primary-text-color);
+    background-color: #E5E5E5;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+}
+
+.logo-kind {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18;
+}
+
+.logo-first,
+.logo-kind-first {
+    color: #2196F3;
+}
+
+.logo-secondary,
+.logo-kind-secondary {
+    color: #000000;
+}
+
+.hero-title {
+    color: var(--additional-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.site-teammembers-list.title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.item-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.site-nav.link {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--title-text-color);
+}
+
+.mail {
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.telnumber {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.section.link {
+    text-decoration: none;
+}
+
+.site-description-logo-list:hover .site-description-logo-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.text {
+    color: var(--primary-text-color);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.item-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.teammembers {
+    background-color: #F5F4FA;
+}
+
+.teammembers-role {
+    color: var(--primary-text-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.site-address {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.item-headers {
+    color: var(--additional-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+
+/* Button*/
+
+.main-button-list {
+    color: var(--additional-color);
+    line-height: 1.62;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.button-primery {
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.button-secondary {
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.87;
+}
