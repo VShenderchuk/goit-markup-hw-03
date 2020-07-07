@@ -11,6 +11,8 @@
          --title-text-color: #212121;
          --accent-color: #2196F3;
          --additional-color: #ffffff;
+         --footer-color: #2F303A;
+        
      }
 
      .body {
@@ -69,7 +71,7 @@
          width: 1170 px;
      }
 
-     .nav {
+     .site-nav {
          font-family: Roboto;
          font-weight: 500;
          font-size: 14px;
@@ -113,7 +115,6 @@
      }
 
      .container {
-         display: flex;
          width: 1170px;
          padding-left: 15px;
          padding-right: 15px;
@@ -231,7 +232,7 @@
          line-height: 1.19;
          display: flex;
          justify-content: space-between;
-         width: cal;
+         
      }
 
      .site-teammembers-list {
@@ -246,6 +247,8 @@
      .teammembers-item {
          background-color: var(--additional-color);
          padding-top: 24px;
+     }
+
          .teammembers {
              background-color: #F5F4FA;
          }
@@ -280,6 +283,7 @@
              line-height: 1.71;
          }
          .item-headers {
+             display: block;
              color: var(--additional-color);
              font-weight: 700;
              font-size: 14px;
@@ -320,12 +324,7 @@
              font-size: 16px;
              line-height: 1.87;
          }
-         .logo-kind {
-             font-family: Raleway, sans-serif;
-             font-weight: 700;
-             font-size: 22px;
-             line-height: 1.18;
-         }
+      
          /* Main container portfolio*/
          .main-portfolio-container.button- .button-container {
              width: 611px;
@@ -396,3 +395,46 @@
          .site-description {
              display: flex;
          }
+
+
+         /*Footer stles*/
+
+         .footer-section {
+             background-color: var(--footer-color);
+
+         }
+         .footer-section > .container {
+            display: flex;
+            align-items: center;
+        }
+        .address-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-right: 69px;
+            align-items: baseline;
+        }
+        .social {
+            display: flex;
+            flex-direction: column;
+            margin-right: 94px;
+
+        }
+        .social-list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .address {
+            font-style: normal;
+        }
+        .logo-kind {
+            display: block;
+            margin-bottom: 20px;
+            font-family: Raleway, sans-serif;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 1.18;
+        }
+
+        
