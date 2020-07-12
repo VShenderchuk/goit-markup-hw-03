@@ -467,16 +467,14 @@
      }
 
      .flex-container {
-         width: 1170px;
-         padding-left: 15px;
-         padding-right: 15px;
-         margin-left: auto;
-         margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
      }
 
      .flex-container-list {
          display: flex;
          flex-wrap: wrap;
+         justify-content: space-between;
      }
 
      .flex-element {
@@ -487,7 +485,9 @@
          border-top-right-radius: 5px;
          overflow: hidden;
      }
-
+.flex-element:nth-child(3n) {
+    margin-right: 0;
+}
      .item-title {
          margin-top: 0;
          margin-bottom: 0;
